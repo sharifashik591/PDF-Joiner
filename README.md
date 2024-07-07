@@ -5,22 +5,23 @@ Welcome to the Resume Evaluation Project! This project evaluates resumes against
 ## 📁 Project Structure
 
 resume_evaluation_project/
-├── 📂 data/
-│ ├── job_description.pdf # Job description PDF file
-│ └── 📂 resumes/ # Folder containing resume PDFs
-│ ├── resume1.pdf
-│ ├── resume2.pdf
-│ ├── ...
-│ └── resumeN.pdf
-├── 📂 src/
-│ ├── init.py
-│ ├── extract_text.py # Script to extract text from PDFs
-│ ├── preprocess.py # Script to preprocess text data
-│ ├── compare.py # Script to compare text similarity
-│ ├── evaluate.py # Script to evaluate resumes against JD
-│ └── utils.py # Utility functions
-├── 📄 requirements.txt # Dependencies
-└── 📄 README.md # Project documentation
+├── data/
+│   ├── job_description.pdf     # Job description PDF file
+│   └── resumes/                # Folder containing resume PDFs
+│       ├── resume1.pdf
+│       ├── resume2.pdf
+│       ├── ...
+│       └── resumeN.pdf
+├── src/
+│   ├── __init__.py
+│   ├── extract_text.py         # Script to extract text from PDFs
+│   ├── preprocess.py           # Script to preprocess text data
+│   ├── compare.py              # Script to compare text similarity
+│   ├── evaluate.py             # Script to evaluate resumes against JD
+│   └── utils.py                # Utility functions
+├── requirements.txt            # Dependencies
+└── README.md                   # Project documentation
+
 
 
 
