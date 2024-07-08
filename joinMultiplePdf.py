@@ -45,7 +45,7 @@ def merge_pdfs(folder_path, output_path):
         print(f"Error writing the merged PDF: {e}")
 
 # Specify the folder containing the PDFs and the output file path
-folder_path = 'QA\QA'  # Update this to the correct path
+folder_path = 'C:/Users/FASHOL/Downloads/rooster_resume_1720344443670/MyPart'  # Update this to the correct path
 output_path = 'merged_output.pdf'  # Update this to the desired output file path
 
 # Merge the PDFs
